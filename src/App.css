@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.nav-logo {
+  margin-right: 5px;
+}
+
+.nav-title {
+  font-weight: 500;
+}
+
+.sections {
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.section {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.loc-img {
+  width: 130px;
+  height: 170px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.data {
+  padding: 10px 15px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 30px;
+}
+
+.loc-pin {
+  width: 10px;
+  margin-right: 4px;
+}
+
+.loc-country {
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.loc-url {
+  text-decoration: none;
+  color: #918E9B;
+  font-style: normal;
+  font-size: 14px;
+  border-bottom: 2px solid #918E9B;
+  line-height: 12px;
+}
+
+.loc-title {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.loc-dates {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.loc-description {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
